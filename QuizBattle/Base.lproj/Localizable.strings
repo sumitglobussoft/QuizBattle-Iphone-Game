@@ -1,0 +1,373 @@
+/* 
+  NSLocalized.strings
+  QuizBattle
+
+  Created by GBS-mac on 8/8/14.
+  Copyright (c) 2014 GBS-mac. All rights reserved.
+*/
+
+
+"Connect With Facebook"="Connect With Facebook";
+"Sign Up with Email"="Sign Up with Email";
+"We highly recommend using Facebook so you can play against your friends!"="We highly recommend using Facebook so you can play against your friends!";
+"WE WILL NEVER POST ANYTHING WITHOUT PERMISSION!"="WE WILL NEVER POST ANYTHING WITHOUT PERMISSION!";
+
+"OR"="OR";
+
+"Already signed up?"="Already signed up?";
+
+"Sign in with"="Sign in with";
+
+"Login Now"="Login Now";
+
+"Google"="Google";
+
+"Back"="Back";
+
+"Next"="Next";
+
+"Sign Up"="Sign Up";
+
+"Display Name"="Display Name";
+
+"Birthday"="Birthday";
+
+"Email"="Email";
+
+"Password"="Password";
+
+"Forgot your password?"="Forgot your password?";
+
+"Password Search"="Password Search";
+
+"Take Photo"="Take Photo";
+
+"Choose Photo"="Choose Photo";
+
+"Choose Avatar"="Choose Avatar";
+
+"Cancel"="Cancel";
+
+"Choose Profile Picture Source"="Choose Profile Picture Source";
+
+"Please Enter Username."="Please Enter Username.";
+
+"Please Select Birthday."="Please Select Birthday.";
+
+"Select your birthday"="Select your birthday";
+
+"Warning"="Warning";
+
+"Please Enter correct email."="Please Enter correct email.";
+
+"Please Enter Email."="Please Enter Email.";
+
+"Please Enter Password."="Please Enter Password.";
+
+"OK"="OK";
+
+"Edit"="Edit";
+
+"Home"="Home";
+
+"Topic"="Topic";
+
+"Friend"="Friend";
+
+"History"="History";
+
+"Messages"="Messages";
+
+"Discussion"="Discussion";
+
+"Discussions"="Discussions";
+
+"Achievements"="Achievements";
+
+"Store"="Store";
+
+"Settings"="Settings";
+
+
+"All Topics"="All Topics";
+
+"New Content"="New Content";
+
+"Staff Picks"="Staff Picks";
+
+"Popular"="Popular";
+
+"Recommended"="Recommended";
+
+"Arts"="Arts";
+
+"Business"="Business";
+
+"Educational"="Educational";
+
+"Games"="Games";
+
+"Geography"="Geography";
+
+"History"="History";
+
+"Lifestyle"="Lifestyle";
+
+"Literature"="Literature";
+
+"Movies"="Movies";
+
+"Music"="Music";
+
+"Nature"="Nature";
+
+"Science"="Science";
+
+"Sports"="Sports";
+
+"TV"="TV";
+
+"Play Now!"="Play Now!";
+
+"Challenge"="Challenge";
+
+"Rankings"="Rankings";
+
+
+"Personalized"="Personalized";
+
+"Log In"="Log In";
+
+"Editorial"="Editorial";
+
+"< Back"="< Back";
+
+//Tab Bar
+
+"Grade"="Grade";
+
+"WHAT AM I, A FARMER"="WHAT AM I, A FARMER";
+
+"Friend Request"="Friend Request";
+
+"Quiz Battle" ="Quiz Battle";
+
+"QUIZ BATTLE FRIENDS"="QUIZ BATTLE FRIENDS";
+
+"Search for all Quiz Battle Friends"="Search for all Quiz Battle Friends";
+
+"Add"="Add";
+
+"No Friends To Display"="No Friends To Display";
+
+"Find your Quiz Battle Friends \n Its Fun to Compete With Friends"="Find your Quiz Battle Friends \n Its Fun to Compete With Friends";
+
+"MAN WITHOUT A PAST"="MAN WITHOUT A PAST";
+
+"You"="You";
+
+"from"="from";
+
+"ago"="ago";
+
+"Win"="Win";
+
+"Lost"="Lost";
+
+"Draw"="Draw";
+
+"months"="months";
+
+"days"="days";
+
+"hours"="hours";
+
+"minutes"="minutes";
+
+"Notifying Your Opponent."="Notifying Your Opponent.";
+
+"NO RECENT DISCUSSIONS"="NO RECENT DISCUSSIONS";
+
+"Recent Discussion"="Recent Discussion";
+
+"Recent Discussion"="Recent Discussion";
+
+"KinderGarten"="KinderGarten";
+
+"ElementarySchool"="Elementary School";
+
+"MiddleSchool"="MiddleSchool";
+
+"HighSchool"="HighSchool";
+
+"University"="University";
+
+"Master"="Master";
+
+"Doctor"="Doctor";
+
+"Quiz King"="Quiz King";
+
+"Dia"="Dia";
+
+"Booster"="Booster";
+
+"Life"="Life";
+
+"Check internet connection."="Check internet connection.";
+
+"Sound Effects"="Sound Effects";
+
+"Vibration"="Vibration";
+
+"Privacy Mode"="Privacy Mode";
+
+"Challenge Notification"="Challenge Notification";
+
+"Chat Notification"="Chat Notification";
+
+"Friend Notification"="Friend Notification";
+
+"GENERAL"="GENERAL";
+
+"PUSH NOTIFICATIONS"="PUSH NOTIFICATIONS";
+
+"Auto Add Friends"="Auto Add Friends";
+
+"LANGUAGES"="LANGUAGES";
+
+"OTHER ACCOUNTS"="OTHER ACCOUNTS";
+
+"Accepts users as friends before they can\nchallenge,chat or view your profile"="Accepts users as friends before they can\nchallenge,chat or view your profile";
+
+"Enter Keycode"="Enter Keycode";
+
+"About"="About";
+
+"Member Withdrawl"="Member Withdrawl";
+
+"Not Played any Game Yet"="Not Played any Game Yet";
+
+"Cannot Post Questions"="Cannot Post Questions";
+
+"Only higher than Highschool 1 level can post the new question"="Only higher than Highschool 1 level can post the new question";
+
+"+ Quiz Topic"="+ Quiz Topic";
+
+"Post"="Post";
+
+"Write Question (Maximum 60 words)"="Write Question (Maximum 60 words)";
+
+"Correct Answer (Maximum 15 words)"="Correct Answer (Maximum 15 words)";
+
+"Wrong Answer (Maximum 15 words)"="Wrong Answer (Maximum 15 words)";
+
+"Result"="Result";
+
+"MATCH POINTS"="MATCH POINTS";
+
+"FINISH BONUS"="FINISH BONUS";
+
+"VICTORY BONUS"="VICTORY BONUS";
+
+"POWER UP BONUS"="POWER UP BONUS";
+
+"Total XP"="Total XP";
+
+"Rematch"="Rematch";
+
+"Play Another"="Play Another";
+
+"IN"="IN";
+
+"Friends"="Friends";
+
+"Unfriend"="Unfriend";
+
+"Block"="Block";
+
+"Chat"="Chat";
+
+"TOTAL SCORE"="TOTAL SCORE";
+
+"WINS"="WINS";
+
+"DRAWS"="DRAWS";
+
+"MATCH DETAILS"="MATCH DETAILS";
+
+"XP PER ROUND"="XP PER ROUND";
+
+"TOTAL"="TOTAL";
+
+"MATCH QUESTIONS"="MATCH QUESTIONS";
+
+"POPULAR TOPICS"="POPULAR TOPICS";
+
+"%COMPLETED"="%COMPLETED";
+"Round"="Round";
+"Selecting right opponent for you."="Selecting right oponent for you.";
+
+"Your opponent is"="Your opponent is";
+
+"Log Out"="Log Out";
+
+"Are you sure you want to leave?"="Are you sure you want to leave?";
+
+"If you can not access the members to leave the game, all account information (DIA, life, trivia points, etc.) will be deleted"="If you can not access the members to leave the game, all account information (DIA, life, trivia points, etc.) will be deleted";
+
+"Yes"="Yes";
+
+"Reject"="Reject";
+
+"EDIT WALLPAPER"="EDIT WALLPAPER";
+
+"Title"="Title";
+
+"GENDER"="GENDER";
+
+"Pick BirthDate"="Pick BirthDate";
+
+"COUNTRY"="COUNTRY";
+
+"CITY"="CITY";
+
+"profile"="profile";
+
+"INBOX IS EMPTY"="INBOX IS EMPTY";
+
+"All your converstions with QuizBattle Players will be stored over here"="All your converstions with QuizBattle Players will be stored over here";
+
+"Accept"="Accept";
+
+"Request"="Request";
+
+"Rematch Request"="Rematch Request";
+
+"Enter Topic"="Enter Topic";
+
+"Search all topics"="Search all topics";
+
+"Password reset link  has been sent to your email"="Password reset link  has been sent to your email";
+
+"If you have Booster, you can raise your level Faster, and the Booster will be effective for One hour."="If you have Booster, you can raise your level Faster, and the Booster will be effective for One hour.";
+
+"Recharge 5 Life"="Recharge 5 Life";
+
+"Recharge 10 Life"="Recharge 10 Life";
+
+"Recharge 30 Life"="Recharge 30 Life";
+
+"Recharge 50 Life"="Recharge 50 Life";
+
+"Recharge 100 Life"="Recharge 100 Life";
+
+"Recharge 300 Life"="Recharge 300 Life";
+
+"2 times"="2 times";
+
+"3 times"="3 times";
+
+"4 times"="4 times";
+
+"Enter Email"="Enter Email";

@@ -1,0 +1,474 @@
+/*
+ NSLocalized.strings
+ QuizBattle
+ 
+ Created by GBS-mac on 8/8/14.
+ Copyright (c) 2014 GBS-mac. All rights reserved.
+ */
+
+//APPdelegate
+"Accept the challenge"="도전을 수락";
+
+"Accept"="수락";
+
+"Error"="오류";
+
+"Check internet connection."="인터넷 연결을 확인합니다.";
+
+"OK"="확인";
+
+"Log In Error"="로그인 오류";
+
+"Uh oh. The user cancelled the Facebook login."="어 오 . 사용자는 페이스 북 로그인을 취소했다.";
+
+"Dismiss"="해제";
+
+"Cancel"="취소";
+
+//ViewController
+"LOG IN"="로그인";
+"Log In"="로그인";
+
+"Facebook Log In"="페이스 북 로그인";
+
+"KK Talk"="카카오 톡";
+
+"Email LogIn"="이메일 로그인";
+
+"Email Registration"="이메일 등록";
+"< Back"="< 돌아 가기";
+//Log In View Controller
+"Email"="이메일";
+
+"Password"="비밀번호";
+
+"Forgot your password?"="비밀번호 찾기";
+
+"Password Search"="비밀번호 찾기";
+
+"Enter user name"="사용자 이름을 입력합니다";
+
+"Enter password"="암호를 입력";
+
+"Email or Password is wrong."="이메일 또는 암호 가 잘못되었습니다.";
+"Round"="둥근";
+"Home"="홈";
+
+"Topic"="토픽";
+
+"Friend"="친구";
+
+"History"="히스토리";
+
+"Messages"="메시지";
+
+"Store"="스토어";
+
+"Settings"="설정";
+
+"Discussions"="토론";
+
+"Discussion"="토론";
+
+//Sign Up with Email View Controller
+
+"Next >"="다음 >";
+
+"Sign Up"="가입";
+
+"Display Name"="이름(닉네임)입력";
+
+"Birthday"="생일";
+
+"Edit"="편집";
+
+"Choose Profile Picture Source"="사진 출처 프로필 선택";
+
+"Take Photo"="사진을 촬영";
+
+"Choose Photo"="사진을 선택";
+
+"Choose Avatar"="아바타를 선택하세요";
+
+"Please Enter Username."="사용자 이름을 입력하십시오.";
+
+"Please Select Birthday."="생일을 선택하세요.";
+
+"Select your birthday"="당신의 생일을 선택";
+
+"Warning"="경고";
+
+"Please Enter correct email."="올바른 이메일을 입력 해주세요.";
+
+"Please Enter Email."="이메일 주소를 입력하세요.";
+
+"Please Enter Password."="비밀번호를 입력하세요.";
+
+//HomeViewController
+
+"Editorial"="편집";
+
+"New Content"="새로운 콘텐츠";
+
+"Staff Picks"="퀴즈등록";
+
+"Popular"="인기순";
+
+"Recommended"="결과보기";
+
+"Recently Played"="최근 플레이한 게임";
+
+"View All"="모두보기";
+
+
+
+
+"Connect With Facebook"="페이스 북과 연결";
+"Sign Up with Email"="이메일로 회원 가입";
+"We highly recommend using Facebook so you can play against your friends!"="우리는 매우 페이스 북은 그래서 당신은 당신의 친구에 대해 재생할 수 있습니다 사용하는 것이 좋습니다 !";
+"WE WILL NEVER POST ANYTHING WITHOUT PERMISSION!"="우리는 허가없이 아무 것도 포스트 않을 것입니다 !";
+
+"OR"="또는";
+
+"Already signed up?"="이미 가입 ?";
+
+"Sign in with"="으로 로그인";
+
+"Login Now"="지금 로그인";
+
+"Google"="구글";
+
+"Back"="돌아 가기";
+
+"Next"="다음";
+
+"Sign Up"="가입";
+
+
+"Display Name"="이름 표시하기";
+
+"Birthday"="생일";
+
+"Email"="이메일";
+
+"Password"="비밀번호";
+
+"Take Photo"="사진을 촬영";
+
+"Choose Photo"="사진을 선택";
+
+"Choose Avatar"="아바타를 선택하세요";
+
+"Cancel"="취소";
+
+"Choose Profile Picture Source"="사진 출처 프로필 선택";
+
+"Please Enter Username."="사용자 이름을 입력하십시오.";
+
+"Please Select Birthday."="생일을 선택하세요.";
+
+"Select your birthday"="당신의 생일을 선택";
+
+"Warning"="경고";
+
+"Please Enter correct email."="올바른 이메일을 입력 해주세요.";
+
+"Please Enter Email."="이메일 주소를 입력하세요.";
+
+"Please Enter Password."="비밀번호를 입력하세요.";
+
+"Enter Email"="등록된 이메일";
+
+"OK"="확인";
+
+"Edit"="편집";
+
+"Home"="홈";
+
+"Topic"="주제";
+
+"Friend"="친구";
+
+"History"="역사";
+
+"Messages"="메시지";
+
+"Achievements"="뱃지";
+
+"Store"="스토어";
+
+"Settings"="설정";
+
+
+"All Topics"="모든 토픽";
+
+"New Content"="새로운 내용";
+
+"Staff Picks"="직원 추천";
+
+"Popular"="인기";
+
+"Recommended"="추천";
+
+"Arts"="예술";
+
+"Business"="비즈니스";
+
+"Educational"="교육";
+
+"Games"="게임";
+
+"Geography"="지리";
+
+"History"="역사";
+
+"Lifestyle"="라이프 스타일";
+
+"Literature"="문학";
+
+"Movies"="영화";
+
+"Music"="배경음악";
+
+"Nature"="자연";
+
+"Science"="과학";
+
+"Sports"="스포츠";
+
+"TV"="텔레비젼";
+
+"Play Now!"="바로시작!";
+
+"Challenge"="도전하기";
+
+"Rankings"="순위";
+
+
+
+"Personalized"="사용자 목록";
+
+"Grade"="등급";
+
+"WHAT AM I, A FARMER"="";
+
+"Friend Request"="친구 요청";
+
+"Quiz Battle"="퀴즈 배틀";
+
+"QUIZ BATTLE FRIENDS"="퀴즈 배틀 친구";
+
+"Search for all Quiz Battle Friends"="모든 퀴즈 배틀 친구 검색";
+
+"Add"="추가";
+
+"No Friends To Display"="어떤 친구 는 표시 하지 않으려면";
+
+"Find your Quiz Battle Friends \n Its Fun to Compete With Friends"="친구 와 경쟁 하기 위해 퀴즈 배틀 친구 \ n 그것의 재미 를 찾기";
+
+"MAN WITHOUT A PAST"="과거 없이 MAN ";
+
+"You"="당신을";
+
+"from"="에서";
+
+"ago"="전";
+
+"Win"="승리";
+
+"Lost"="손실";
+
+"Draw"="그리기";
+
+"months"="달";
+
+"days"="일";
+
+"hours"="시간";
+
+"minutes"="분";
+
+"Notifying Your Opponent."="상대를 통보 .";
+
+"NO RECENT DISCUSSIONS"="최근 토론 내용이 없습니다";
+
+"Recent Discussion"="최근 토론";
+
+"KinderGarten"="유치원";
+
+"ElementarySchool"="초등학교";
+
+"MiddleSchool"="중학교";
+
+"HighSchool"="고등학교";
+
+"University"="대학";
+
+"Master"="석사";
+
+"Doctor"="의사";
+
+"Quiz King"="퀴즈 왕";
+
+"Dia"="다이아";
+
+"Booster"="부스터";
+
+"Life"="생활";
+
+"Check internet connection."="인터넷 연결을 확인합니다.";
+
+"Sound Effects"="효과음";
+
+"Vibration"="진동";
+
+"Privacy Mode"="보안모드";
+
+"Challenge Notification" =" 도전자 알림";
+
+"Chat Notification" = "채팅 알림";
+
+"Friend Notification"= "친구 소식 알림";
+
+"GENERAL"="일반";
+
+"PUSH NOTIFICATIONS"="푸시 알림";
+
+"Auto Add Friends"="자동 친구 추가";
+
+"LANGUAGES"="국어";
+
+"OTHER ACCOUNTS"="다른 계정";
+
+"Accepts users as friends before they can challenge,chat or view your profile"="다른 사람들이 당신에게 도전을 신청할 수 있거나 당신의 프로필을 보고 친구를 신청할 수도 있습니다.";
+
+"Enter Keycode"="키 코드 를 입력합니다";
+
+"About"="핚줄 자기소개";
+
+"Member Withdrawl"="회원탈퇴";
+
+"Not Played any Game Yet"="아직 게임을  플레이 하지 않았습니다.";
+
+"Cannot Post Questions"=" 질문을 게시 할 수 없습니다 ";
+
+"Only higher than Highschool 1 level can post the new question"="오직 높은 고등학교 보다 1 레벨은 새로운 질문을 게시 할 수 있습니다 ";
+
+"+ Quiz Topic"="+ 퀴즈 주제";
+
+"Post"="포스트";
+
+"Write Question (Maximum 60 words)"="질문( 최대 60 단어 )쓰기";
+
+"Correct Answer (Maximum 15 words)"="정답 ( 최대 15 자)";
+
+"Wrong Answer (Maximum 15 words)"="오답 ( 최대 15 자)";
+
+"Result"="결과";
+
+"MATCH POINTS"="매치포인트";
+
+"FINISH BONUS"="경기완료 보너스";
+
+"VICTORY BONUS"="승리 보너스";
+
+"POWER UP BONUS"="파워업 보너스";
+
+"TOTAL XP"="총 스코어";
+
+"Rematch"="재시합";
+
+"Play Another"="다른 플레이";
+
+"IN"="에";
+
+"Friends"="친구들";
+
+//"Unfriend"="";
+
+"Block"="차단";
+
+"Chat"="잡담";
+
+"TOTAL SCORE"="종합 점수";
+
+"WINS"="승리";
+
+"DRAWS"="무승부";
+
+"LOSTS"="패배";
+
+"MATCH DETAILS"="세부 경기내용";
+
+"XP PER ROUND"="라운드당 스코어";
+
+"TOTAL"="합계";
+
+"MATCH QUESTIONS"="경기 질문들";
+
+"POPULAR TOPICS"="인기 토픽";
+
+"%COMPLETED"="%완료";
+
+"Selecting right opponent for you."="당신 에게 맞는 상대를 선택 .";
+
+"Your opponent is"="상대 는";
+
+"Log Out"="로그아웃";
+
+"If you can not access the members to leave the game, all account information (DIA, life, trivia points, etc.) will be deleted"="회원탈퇴를 하시면 게임을 이용하실 수 없으며 모든 계정 정보(DIA, 생명,퀴즈포인트 등)가 삭제됩니다";
+
+"Are you sure you want to leave?"="정말 탈퇴하시겠습니까?";
+
+"Yes"="예";
+
+"Reject"="아 거부";
+
+"EDIT WALLPAPER"="편집 벽지 ";
+
+"Title"="레벨";
+
+"GENDER"="성별";
+
+"Pick BirthDate"="생년월일 을 선택";
+
+"COUNTRY"="지역랭킹";
+
+"CITY"="도시";
+
+"Profile"="프로필";
+
+"INBOX IS EMPTY"="받은 편지함 이 비어 있습니다";
+
+"All your converstions with QuizBattle Players will be stored over here"="퀴즈 전투 선수 와 당신의 모든 대화는 여기에 저장됩니다";
+
+"Request"="의뢰";
+
+"Rematch Request"="재 대결 요청";
+
+"Enter Topic"="주제 를 입력";
+
+"Search all topics"="모든 항목을 검색";
+
+"Password reset link  has been sent to your email"="암호 재설정 링크 가 이메일 로 전송되었습니다";
+
+"If you have Booster, you can raise your level Faster, and the Booster will be effective for One hour."="당신이 부스터 가있는 경우에, 당신은 빨리 당신의 수준을 올릴 수 있고, 부스터 1 시간 동안 유효합니다.";
+
+"Recharge 5 Life"="5 생명 을 충전";
+
+"Recharge 10 Life"="10 생명 을 충전";
+
+"Recharge 30 Life"="30 생명 을 충전";
+
+"Recharge 50 Life"="50 생명 을 충전";
+
+"Recharge 100 Life"="100 생명 을 충전";
+
+"Recharge 300 Life"="300 생명 을 충전";
+
+"2 times"="2 회";
+
+"3 times"="3 회";
+
+"4 times"="4 회";
+"Last Round"="최종 라운드 기본점수 X 2배";

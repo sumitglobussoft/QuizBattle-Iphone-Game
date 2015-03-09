@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28493C0F18800CE40057BC4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28493C0E18800CE40057BC4C /* Foundation.framework */; };
+		28493C1118800CE40057BC4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28493C1018800CE40057BC4C /* CoreGraphics.framework */; };
+		28493C1318800CE40057BC4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28493C1218800CE40057BC4C /* UIKit.framework */; };
+		28493C1918800CE40057BC4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28493C1718800CE40057BC4C /* InfoPlist.strings */; };
+		28493C1B18800CE40057BC4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28493C1A18800CE40057BC4C /* main.m */; };
+		28493C1F18800CE40057BC4C /* KakaoStorySampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28493C1E18800CE40057BC4C /* KakaoStorySampleAppDelegate.m */; };
+		28493C2818800CE40057BC4C /* KakaoStorySampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28493C2718800CE40057BC4C /* KakaoStorySampleViewController.m */; };
+		28493C2A18800CE40057BC4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28493C2918800CE40057BC4C /* Images.xcassets */; };
+		28493C3118800CE40057BC4C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28493C3018800CE40057BC4C /* XCTest.framework */; };
+		28493C3218800CE40057BC4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28493C0E18800CE40057BC4C /* Foundation.framework */; };
+		28493C3318800CE40057BC4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28493C1218800CE40057BC4C /* UIKit.framework */; };
+		28493C3B18800CE40057BC4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28493C3918800CE40057BC4C /* InfoPlist.strings */; };
+		28493C3D18800CE40057BC4C /* KakaoStorySampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28493C3C18800CE40057BC4C /* KakaoStorySampleTests.m */; };
+		28493CEA18800D550057BC4C /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28493CE918800D550057BC4C /* KakaoOpenSDK.framework */; };
+		2865C6BA1883CCD40078EE28 /* KakaoStorySampleLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2865C6B91883CCD40078EE28 /* KakaoStorySampleLoginViewController.m */; };
+		2865C6C11883DDA00078EE28 /* KakaoStorySampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2865C6C01883DDA00078EE28 /* KakaoStorySampleViewController.xib */; };
+		46E16F66192EF7C7001E9D3C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E16F63192EF7C7001E9D3C /* Default.png */; };
+		46E16F67192EF7C7001E9D3C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E16F64192EF7C7001E9D3C /* Default@2x.png */; };
+		46E16F68192EF7C7001E9D3C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E16F65192EF7C7001E9D3C /* Default-568h@2x.png */; };
+		46E16F70192EF933001E9D3C /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E16F69192EF933001E9D3C /* icon-72.png */; };
+		46E16F71192EF933001E9D3C /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E16F6A192EF933001E9D3C /* icon-72@2x.png */; };
+		46E16F72192EF933001E9D3C /* icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E16F6B192EF933001E9D3C /* icon-120.png */; };
+		46E16F73192EF933001E9D3C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E16F6C192EF933001E9D3C /* icon.png */; };
+		46E16F74192EF933001E9D3C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E16F6D192EF933001E9D3C /* icon@2x.png */; };
+		46E16F75192EF933001E9D3C /* icon@iPad76.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E16F6E192EF933001E9D3C /* icon@iPad76.png */; };
+		46E16F76192EF933001E9D3C /* icon@iPad152.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E16F6F192EF933001E9D3C /* icon@iPad152.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28493C3418800CE40057BC4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28493C0318800CE40057BC4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28493C0A18800CE40057BC4C;
+			remoteInfo = KakaoStorySample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28493C0B18800CE40057BC4C /* KakaoStorySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoStorySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28493C0E18800CE40057BC4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28493C1018800CE40057BC4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28493C1218800CE40057BC4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28493C1618800CE40057BC4C /* KakaoStorySample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KakaoStorySample-Info.plist"; sourceTree = "<group>"; };
+		28493C1818800CE40057BC4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28493C1A18800CE40057BC4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28493C1C18800CE40057BC4C /* KakaoStorySample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KakaoStorySample-Prefix.pch"; sourceTree = "<group>"; };
+		28493C1D18800CE40057BC4C /* KakaoStorySampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KakaoStorySampleAppDelegate.h; sourceTree = "<group>"; };
+		28493C1E18800CE40057BC4C /* KakaoStorySampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KakaoStorySampleAppDelegate.m; sourceTree = "<group>"; };
+		28493C2618800CE40057BC4C /* KakaoStorySampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KakaoStorySampleViewController.h; sourceTree = "<group>"; };
+		28493C2718800CE40057BC4C /* KakaoStorySampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KakaoStorySampleViewController.m; sourceTree = "<group>"; };
+		28493C2918800CE40057BC4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28493C2F18800CE40057BC4C /* KakaoStorySampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KakaoStorySampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28493C3018800CE40057BC4C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		28493C3818800CE40057BC4C /* KakaoStorySampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KakaoStorySampleTests-Info.plist"; sourceTree = "<group>"; };
+		28493C3A18800CE40057BC4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28493C3C18800CE40057BC4C /* KakaoStorySampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KakaoStorySampleTests.m; sourceTree = "<group>"; };
+		28493CE918800D550057BC4C /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KakaoOpenSDK.framework; path = ../../KakaoOpenSDK.framework; sourceTree = "<group>"; };
+		2865C6B81883CCD40078EE28 /* KakaoStorySampleLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KakaoStorySampleLoginViewController.h; sourceTree = "<group>"; };
+		2865C6B91883CCD40078EE28 /* KakaoStorySampleLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KakaoStorySampleLoginViewController.m; sourceTree = "<group>"; };
+		2865C6C01883DDA00078EE28 /* KakaoStorySampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KakaoStorySampleViewController.xib; sourceTree = "<group>"; };
+		46E16F63192EF7C7001E9D3C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		46E16F64192EF7C7001E9D3C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		46E16F65192EF7C7001E9D3C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		46E16F69192EF933001E9D3C /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		46E16F6A192EF933001E9D3C /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
+		46E16F6B192EF933001E9D3C /* icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-120.png"; sourceTree = "<group>"; };
+		46E16F6C192EF933001E9D3C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		46E16F6D192EF933001E9D3C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		46E16F6E192EF933001E9D3C /* icon@iPad76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@iPad76.png"; sourceTree = "<group>"; };
+		46E16F6F192EF933001E9D3C /* icon@iPad152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@iPad152.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28493C0818800CE40057BC4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28493C1118800CE40057BC4C /* CoreGraphics.framework in Frameworks */,
+				28493CEA18800D550057BC4C /* KakaoOpenSDK.framework in Frameworks */,
+				28493C1318800CE40057BC4C /* UIKit.framework in Frameworks */,
+				28493C0F18800CE40057BC4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28493C2C18800CE40057BC4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28493C3118800CE40057BC4C /* XCTest.framework in Frameworks */,
+				28493C3318800CE40057BC4C /* UIKit.framework in Frameworks */,
+				28493C3218800CE40057BC4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28493C0218800CE40057BC4C = {
+			isa = PBXGroup;
+			children = (
+				46E16F69192EF933001E9D3C /* icon-72.png */,
+				46E16F6A192EF933001E9D3C /* icon-72@2x.png */,
+				46E16F6B192EF933001E9D3C /* icon-120.png */,
+				46E16F6C192EF933001E9D3C /* icon.png */,
+				46E16F6D192EF933001E9D3C /* icon@2x.png */,
+				46E16F6E192EF933001E9D3C /* icon@iPad76.png */,
+				46E16F6F192EF933001E9D3C /* icon@iPad152.png */,
+				46E16F63192EF7C7001E9D3C /* Default.png */,
+				46E16F64192EF7C7001E9D3C /* Default@2x.png */,
+				46E16F65192EF7C7001E9D3C /* Default-568h@2x.png */,
+				28493C1418800CE40057BC4C /* KakaoStorySample */,
+				28493C3618800CE40057BC4C /* KakaoStorySampleTests */,
+				28493C0D18800CE40057BC4C /* Frameworks */,
+				28493C0C18800CE40057BC4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28493C0C18800CE40057BC4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28493C0B18800CE40057BC4C /* KakaoStorySample.app */,
+				28493C2F18800CE40057BC4C /* KakaoStorySampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28493C0D18800CE40057BC4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28493CE918800D550057BC4C /* KakaoOpenSDK.framework */,
+				28493C0E18800CE40057BC4C /* Foundation.framework */,
+				28493C1018800CE40057BC4C /* CoreGraphics.framework */,
+				28493C1218800CE40057BC4C /* UIKit.framework */,
+				28493C3018800CE40057BC4C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28493C1418800CE40057BC4C /* KakaoStorySample */ = {
+			isa = PBXGroup;
+			children = (
+				2865C6B81883CCD40078EE28 /* KakaoStorySampleLoginViewController.h */,
+				2865C6B91883CCD40078EE28 /* KakaoStorySampleLoginViewController.m */,
+				28493C1D18800CE40057BC4C /* KakaoStorySampleAppDelegate.h */,
+				28493C1E18800CE40057BC4C /* KakaoStorySampleAppDelegate.m */,
+				28493C2618800CE40057BC4C /* KakaoStorySampleViewController.h */,
+				28493C2718800CE40057BC4C /* KakaoStorySampleViewController.m */,
+				2865C6C01883DDA00078EE28 /* KakaoStorySampleViewController.xib */,
+				28493C2918800CE40057BC4C /* Images.xcassets */,
+				28493C1518800CE40057BC4C /* Supporting Files */,
+			);
+			path = KakaoStorySample;
+			sourceTree = "<group>";
+		};
+		28493C1518800CE40057BC4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28493C1618800CE40057BC4C /* KakaoStorySample-Info.plist */,
+				28493C1718800CE40057BC4C /* InfoPlist.strings */,
+				28493C1A18800CE40057BC4C /* main.m */,
+				28493C1C18800CE40057BC4C /* KakaoStorySample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28493C3618800CE40057BC4C /* KakaoStorySampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				28493C3C18800CE40057BC4C /* KakaoStorySampleTests.m */,
+				28493C3718800CE40057BC4C /* Supporting Files */,
+			);
+			path = KakaoStorySampleTests;
+			sourceTree = "<group>";
+		};
+		28493C3718800CE40057BC4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28493C3818800CE40057BC4C /* KakaoStorySampleTests-Info.plist */,
+				28493C3918800CE40057BC4C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28493C0A18800CE40057BC4C /* KakaoStorySample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28493C4018800CE40057BC4C /* Build configuration list for PBXNativeTarget "KakaoStorySample" */;
+			buildPhases = (
+				28493C0718800CE40057BC4C /* Sources */,
+				28493C0818800CE40057BC4C /* Frameworks */,
+				28493C0918800CE40057BC4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KakaoStorySample;
+			productName = KakaoStorySample;
+			productReference = 28493C0B18800CE40057BC4C /* KakaoStorySample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28493C2E18800CE40057BC4C /* KakaoStorySampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28493C4318800CE40057BC4C /* Build configuration list for PBXNativeTarget "KakaoStorySampleTests" */;
+			buildPhases = (
+				28493C2B18800CE40057BC4C /* Sources */,
+				28493C2C18800CE40057BC4C /* Frameworks */,
+				28493C2D18800CE40057BC4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28493C3518800CE40057BC4C /* PBXTargetDependency */,
+			);
+			name = KakaoStorySampleTests;
+			productName = KakaoStorySampleTests;
+			productReference = 28493C2F18800CE40057BC4C /* KakaoStorySampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28493C0318800CE40057BC4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KakaoStorySample;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "kakao corp";
+				TargetAttributes = {
+					28493C0A18800CE40057BC4C = {
+						DevelopmentTeam = JQ2TRYAKQV;
+					};
+					28493C2E18800CE40057BC4C = {
+						TestTargetID = 28493C0A18800CE40057BC4C;
+					};
+				};
+			};
+			buildConfigurationList = 28493C0618800CE40057BC4C /* Build configuration list for PBXProject "KakaoStorySample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28493C0218800CE40057BC4C;
+			productRefGroup = 28493C0C18800CE40057BC4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28493C0A18800CE40057BC4C /* KakaoStorySample */,
+				28493C2E18800CE40057BC4C /* KakaoStorySampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28493C0918800CE40057BC4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E16F67192EF7C7001E9D3C /* Default@2x.png in Resources */,
+				46E16F70192EF933001E9D3C /* icon-72.png in Resources */,
+				46E16F72192EF933001E9D3C /* icon-120.png in Resources */,
+				46E16F71192EF933001E9D3C /* icon-72@2x.png in Resources */,
+				2865C6C11883DDA00078EE28 /* KakaoStorySampleViewController.xib in Resources */,
+				28493C2A18800CE40057BC4C /* Images.xcassets in Resources */,
+				46E16F75192EF933001E9D3C /* icon@iPad76.png in Resources */,
+				46E16F73192EF933001E9D3C /* icon.png in Resources */,
+				46E16F68192EF7C7001E9D3C /* Default-568h@2x.png in Resources */,
+				46E16F76192EF933001E9D3C /* icon@iPad152.png in Resources */,
+				28493C1918800CE40057BC4C /* InfoPlist.strings in Resources */,
+				46E16F66192EF7C7001E9D3C /* Default.png in Resources */,
+				46E16F74192EF933001E9D3C /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28493C2D18800CE40057BC4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28493C3B18800CE40057BC4C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28493C0718800CE40057BC4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2865C6BA1883CCD40078EE28 /* KakaoStorySampleLoginViewController.m in Sources */,
+				28493C1F18800CE40057BC4C /* KakaoStorySampleAppDelegate.m in Sources */,
+				28493C1B18800CE40057BC4C /* main.m in Sources */,
+				28493C2818800CE40057BC4C /* KakaoStorySampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28493C2B18800CE40057BC4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28493C3D18800CE40057BC4C /* KakaoStorySampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28493C3518800CE40057BC4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28493C0A18800CE40057BC4C /* KakaoStorySample */;
+			targetProxy = 28493C3418800CE40057BC4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28493C1718800CE40057BC4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28493C1818800CE40057BC4C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28493C3918800CE40057BC4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28493C3A18800CE40057BC4C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28493C3E18800CE40057BC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28493C3F18800CE40057BC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28493C4118800CE40057BC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KakaoStorySample/KakaoStorySample-Prefix.pch";
+				INFOPLIST_FILE = "KakaoStorySample/KakaoStorySample-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28493C4218800CE40057BC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KakaoStorySample/KakaoStorySample-Prefix.pch";
+				INFOPLIST_FILE = "KakaoStorySample/KakaoStorySample-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		28493C4418800CE40057BC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KakaoStorySample.app/KakaoStorySample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KakaoStorySample/KakaoStorySample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KakaoStorySampleTests/KakaoStorySampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		28493C4518800CE40057BC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KakaoStorySample.app/KakaoStorySample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KakaoStorySample/KakaoStorySample-Prefix.pch";
+				INFOPLIST_FILE = "KakaoStorySampleTests/KakaoStorySampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28493C0618800CE40057BC4C /* Build configuration list for PBXProject "KakaoStorySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28493C3E18800CE40057BC4C /* Debug */,
+				28493C3F18800CE40057BC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28493C4018800CE40057BC4C /* Build configuration list for PBXNativeTarget "KakaoStorySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28493C4118800CE40057BC4C /* Debug */,
+				28493C4218800CE40057BC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28493C4318800CE40057BC4C /* Build configuration list for PBXNativeTarget "KakaoStorySampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28493C4418800CE40057BC4C /* Debug */,
+				28493C4518800CE40057BC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28493C0318800CE40057BC4C /* Project object */;
+}

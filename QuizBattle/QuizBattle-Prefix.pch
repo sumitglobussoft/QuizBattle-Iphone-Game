@@ -1,0 +1,26 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#define FacebookConnected @"FacebookConneted"
+#define ConnectedFacebookUserID @"ConnectedFacebookUserID"
+#define GCDBackgroundThread dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+#define GCDMainThread dispatch_get_main_queue()
+
+#define KLanguageUpdateNotification @"LanguageUpdateNotification"
+#define KUpdateBackButtonNotification @"UpdatebackButtonNotification"
+#define KDismissView @"DismissNotification"
+#define KUpdateHistory @"UpdateHistoryViewValue"
+#import <Quickblox/Quickblox.h>
+#endif

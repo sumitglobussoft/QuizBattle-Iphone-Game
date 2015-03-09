@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0510"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A1657E041992174500B2677F"
+               BuildableName = "&#x110f;&#x1171;&#x110c;&#x1173;&#x1107;&#x1162;&#x1110;&#x1173;&#x11af;.app"
+               BlueprintName = "&#xd034;&#xc988;&#xbc30;&#xd2c0;"
+               ReferencedContainer = "container:QuizBattle.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A1657E251992174500B2677F"
+               BuildableName = "QuizBattleTests.xctest"
+               BlueprintName = "QuizBattleTests"
+               ReferencedContainer = "container:QuizBattle.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A1657E041992174500B2677F"
+            BuildableName = "&#x110f;&#x1171;&#x110c;&#x1173;&#x1107;&#x1162;&#x1110;&#x1173;&#x11af;.app"
+            BlueprintName = "&#xd034;&#xc988;&#xbc30;&#xd2c0;"
+            ReferencedContainer = "container:QuizBattle.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A1657E041992174500B2677F"
+            BuildableName = "&#x110f;&#x1171;&#x110c;&#x1173;&#x1107;&#x1162;&#x1110;&#x1173;&#x11af;.app"
+            BlueprintName = "&#xd034;&#xc988;&#xbc30;&#xd2c0;"
+            ReferencedContainer = "container:QuizBattle.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+         <AdditionalOption
+            key = "NSZombieEnabled"
+            value = "YES"
+            isEnabled = "YES">
+         </AdditionalOption>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = "/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Resources/templates/Zombies.tracetemplate"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A1657E041992174500B2677F"
+            BuildableName = "&#x110f;&#x1171;&#x110c;&#x1173;&#x1107;&#x1162;&#x1110;&#x1173;&#x11af;.app"
+            BlueprintName = "&#xd034;&#xc988;&#xbc30;&#xd2c0;"
+            ReferencedContainer = "container:QuizBattle.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

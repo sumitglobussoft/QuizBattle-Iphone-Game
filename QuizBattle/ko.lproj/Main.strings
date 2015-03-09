@@ -1,0 +1,39 @@
+
+/* Class = "IBUILabel"; text = "가입"; ObjectID = "0DB-cj-Ee0"; */
+"0DB-cj-Ee0.text" = "가입";
+
+/* Class = "IBUIButton"; normalTitle = "Back"; ObjectID = "22K-0Y-OT4"; */
+"22K-0Y-OT4.normalTitle" = "Back";
+
+/* Class = "IBUITextField"; placeholder = "Birthday"; ObjectID = "3xa-s8-zZ0"; */
+"3xa-s8-zZ0.placeholder" = "Birthday";
+
+/* Class = "IBUIButton"; normalTitle = "Back"; ObjectID = "9rl-ML-Dr7"; */
+"9rl-ML-Dr7.normalTitle" = "Back";
+
+/* Class = "IBUIButton"; normalTitle = "Next"; ObjectID = "CtV-lf-YgI"; */
+"CtV-lf-YgI.normalTitle" = "Next";
+
+/* Class = "IBUITextField"; placeholder = "Display Name"; ObjectID = "IXs-u0-3W8"; */
+"IXs-u0-3W8.placeholder" = "Display Name";
+
+/* Class = "IBUITextField"; placeholder = "Password"; ObjectID = "OcC-dX-Owq"; */
+"OcC-dX-Owq.placeholder" = "Password";
+
+/* Class = "IBUIButton"; normalTitle = "Google"; ObjectID = "PsH-Pa-ljb"; */
+"PsH-Pa-ljb.normalTitle" = "Google";
+
+/* Class = "IBUIButton"; normalTitle = "Login Now"; ObjectID = "a25-1c-E1i"; */
+"a25-1c-E1i.normalTitle" = "Login Now";
+
+/* Class = "IBUIButton"; normalTitle = "Sign Up with Email"; ObjectID = "axN-hd-EOy"; */
+"axN-hd-EOy.normalTitle" = "Sign Up with Email";
+
+/* Class = "IBUILabel"; text = "가입"; ObjectID = "bdO-ae-iAh"; */
+"bdO-ae-iAh.text" = "가입";
+
+/* Class = "IBUIButton"; normalTitle = "Next"; ObjectID = "d70-cC-Fqi"; */
+"d70-cC-Fqi.normalTitle" = "Next";
+
+/* Class = "IBUITextField"; placeholder = "Email"; ObjectID = "m8s-GZ-gai"; */
+"m8s-GZ-gai.placeholder" = "Email";
